@@ -1,0 +1,2 @@
+tellraw @a "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+tellraw @a [{"text":"[ 흡혈 검 ]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"흡혈 1레벨","color":"yellow"}]},"clickEvent":{"action":"run_command","value":"/tag @s add vam.item"}}]
