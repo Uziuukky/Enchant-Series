@@ -13,5 +13,5 @@ execute as @a[scores={vampire=1..},nbt={SelectedItem:{tag:{Vam:1b}}}] at @s run 
 execute as @a[scores={vampire=1..},nbt={SelectedItem:{tag:{Vam:1b}}}] at @s run particle minecraft:block redstone_block ~ ~1 ~ 0.2 0.3 0.2 0 20 force @a
 execute as @a[scores={vampire=1..},nbt={SelectedItem:{tag:{Vam:1b}}}] at @s run scoreboard players set @s vampire 0
 
-execute as @e[tag=vam.item] at @s run give @s diamond_sword{display:{Name:'{"text":"다이아몬드 검","color":"aqua","italic":false}',Lore:['{"text":"흡혈 1","color":"gray","italic":false}']},HideFlags:1,TH:1b,Enchantments:[{id:"minecraft:sharpness",lvl:0s}]} 1
+execute as @e[tag=vam.item] at @s run give @s diamond_sword{display:{Name:'{"text":"다이아몬드 검","color":"aqua","italic":false}',Lore:['{"text":"흡혈 1","color":"gray","italic":false}']},HideFlags:1,Vam:1b,Enchantments:[{id:"minecraft:sharpness",lvl:0s}]} 1
 execute as @e[tag=vam.item] at @s run tag @s remove vam.item
