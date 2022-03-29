@@ -1,2 +1,0 @@
-tellraw @a "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-tellraw @a [{"text":"[ 무력화 도끼 ]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"무력화 1레벨","color":"yellow"}]},"clickEvent":{"action":"run_command","value":"/tag @s add obs.item"}}]
